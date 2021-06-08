@@ -4,7 +4,7 @@
 \alias{replr}
 \title{An R REPL}
 \usage{
-replr(prompt = ">>>> ", continue = "++++ ", env = new.env(parent = baseenv()))
+replr(prompt = ">>>> ", continue = "++++ ", env = new.env())
 }
 \arguments{
 \item{prompt}{A string. The text prompt.}
@@ -16,5 +16,5 @@ a multiline expression is passed.}
 evaluated at.}
 }
 \description{
-A (fully functional?) R REPL.
+A simple - not yet fully functional - R REPL.
 }

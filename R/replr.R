@@ -1,6 +1,6 @@
 #' An R REPL
 #'
-#' A (fully functional?) R REPL.
+#' A simple - not yet fully functional - R REPL.
 #'
 #' @param prompt A string. The text prompt.
 #' @param continue A string. The text prompt when from the second line onward if
@@ -11,7 +11,7 @@
 #' @export
 replr <- function(prompt = ">>>> ",
                   continue = "++++ ",
-                  env = new.env(parent = baseenv())) {
+                  env = new.env()) {
 
   suppressWarnings(
 
