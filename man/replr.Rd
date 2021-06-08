@@ -16,5 +16,5 @@ a multiline expression is passed.}
 evaluated at.}
 }
 \description{
-A not yet fully function R REPL.
+A (fully functional?) R REPL.
 }

@@ -1,6 +1,6 @@
 #' An R REPL
 #'
-#' A not yet fully function R REPL.
+#' A (fully functional?) R REPL.
 #'
 #' @param prompt A string. The text prompt.
 #' @param continue A string. The text prompt when from the second line onward if

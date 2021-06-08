@@ -13,7 +13,7 @@ A simple (fully functional?) R REPL written in R.
 Development version:
 
 ``` r
-install.packages("replr", repos = repos = "https://dhersz.r-universe.dev")
+install.packages("replr", repos = "https://dhersz.r-universe.dev")
 
 # or
 # install.packages("remotes")
