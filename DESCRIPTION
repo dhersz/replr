@@ -1,0 +1,17 @@
+Type: Package
+Package: replr
+Title: An R REPL Written in R
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Daniel",
+           family = "Herszenhut",
+           role = c("aut", "cre"),
+           email = "dhersz@gmail.com",
+           comment = c(ORCID = "0000-0001-8066-1105"))
+Maintainer: Daniel Herszenhut <dhersz@gmail.com>
+Description: A simple - and not yet fully functional - R REPL written in R.
+License: GPL (>= 2)
+URL: https://github.com/dhersz/replr                                                                                                               
+BugReports: https://github.com/dhersz/replr/issues  
+Encoding: UTF-8
+RoxygenNote: 7.1.1

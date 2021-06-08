@@ -1,0 +1,42 @@
+{
+  "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+  "@type": "SoftwareSourceCode",
+  "identifier": "replr",
+  "description": "A simple - and not yet fully functional - R REPL written in R.",
+  "name": "replr: An R REPL Written in R",
+  "codeRepository": "https://github.com/dhersz/replr",
+  "issueTracker": "https://github.com/dhersz/replr/issues  ",
+  "license": "https://spdx.org/licenses/GPL-2.0",
+  "version": "0.0.0.9000",
+  "programmingLanguage": {
+    "@type": "ComputerLanguage",
+    "name": "R",
+    "url": "https://r-project.org"
+  },
+  "runtimePlatform": "R version 4.1.0 (2021-05-18)",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Daniel",
+      "familyName": "Herszenhut",
+      "email": "dhersz@gmail.com",
+      "@id": "https://orcid.org/0000-0001-8066-1105"
+    }
+  ],
+  "contributor": {},
+  "copyrightHolder": {},
+  "funder": {},
+  "maintainer": [
+    {
+      "@type": "Person",
+      "givenName": "Daniel",
+      "familyName": "Herszenhut",
+      "email": "dhersz@gmail.com",
+      "@id": "https://orcid.org/0000-0001-8066-1105"
+    }
+  ],
+  "softwareSuggestions": [],
+  "softwareRequirements": [],
+  "fileSize": "2.893KB",
+  "developmentStatus": "https://lifecycle.r-lib.org/articles/stages.html"
+}

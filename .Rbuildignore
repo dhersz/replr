@@ -1,0 +1,6 @@
+^.git$
+^.*\.Rproj$
+^\.Rproj\.user$
+^\.pre-commit-config\.yaml$
+^README\.Rmd$
+^codemeta\.json$

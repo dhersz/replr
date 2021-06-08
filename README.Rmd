@@ -1,0 +1,30 @@
+---
+output: github_document
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# gtfsio
+
+[![CRAN status](https://www.r-pkg.org/badges/version/replr)](https://CRAN.R-project.org/package=replr)
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html)
+
+A simple - and not yet fully functional - R REPL written in R.
+
+## Installation
+
+Development version:
+
+```{r, eval = FALSE}
+# install.packages("remotes")
+remotes::install_github("dhersz/replr")
+```
+
+
