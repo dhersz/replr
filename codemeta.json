@@ -10,7 +10,7 @@
   "codeRepository": "https://github.com/dhersz/replr",
   "issueTracker": "https://github.com/dhersz/replr/issues  ",
   "license": "https://spdx.org/licenses/GPL-2.0",
-  "version": "0.0.0.9003",
+  "version": "0.0.0.9004",
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
@@ -40,7 +40,7 @@
   ],
   "softwareSuggestions": [],
   "softwareRequirements": [],
-  "fileSize": "5.226KB",
+  "fileSize": "5.601KB",
   "developmentStatus": "https://lifecycle.r-lib.org/articles/stages.html",
   "readme": "https://github.com/dhersz/replr/blob/master/README.md"
 }

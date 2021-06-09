@@ -5,13 +5,18 @@
 #' @param prompt A string. The text prompt.
 #' @param continue A string. The text prompt when from the second line onward if
 #'   a multiline expression is passed.
-#' @param env An environment. The environment where expressions should be
-#'   evaluated at.
 #'
 #' @export
-replr <- function(prompt = ">>>> ",
-                  continue = "++++ ",
-                  env = new.env()) {
+replr <- function(prompt = ">>>> ", continue = "++++ ") {
+
+  replr_env <- new.env(parent = as.environment("Autoloads"))
+  attr(replr_env, "name") <- "replr_global"
+
+  # base function rewritten to work with the REPL
+
+  replr_env$search <- custom_search
+
+  # the REPL itself
 
   suppressWarnings(
 
@@ -50,7 +55,7 @@ replr <- function(prompt = ">>>> ",
         result <- withVisible(
           withCallingHandlers(
             tryCatch(
-              eval(expr, envir = env),
+              eval(expr, envir = replr_env),
               error = function(cnd) message("Error: ", cnd$message)
             ),
             warning = function(cnd) message("Warning: ", cnd$message)

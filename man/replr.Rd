@@ -4,16 +4,13 @@
 \alias{replr}
 \title{An R REPL}
 \usage{
-replr(prompt = ">>>> ", continue = "++++ ", env = new.env())
+replr(prompt = ">>>> ", continue = "++++ ")
 }
 \arguments{
 \item{prompt}{A string. The text prompt.}
 
 \item{continue}{A string. The text prompt when from the second line onward if
 a multiline expression is passed.}
-
-\item{env}{An environment. The environment where expressions should be
-evaluated at.}
 }
 \description{
 A simple - not yet fully functional - R REPL.

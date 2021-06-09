@@ -1,7 +1,7 @@
 Type: Package
 Package: replr
 Title: An R REPL Written in R
-Version: 0.0.0.9003
+Version: 0.0.0.9004
 Authors@R: 
     person(given = "Daniel",
            family = "Herszenhut",
